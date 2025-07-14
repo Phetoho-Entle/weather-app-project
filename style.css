@@ -92,3 +92,16 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(3px);
 }
+
+footer {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    
+}
+
+a { 
+    text-decoration: none;
+    color: #ffffff;
+}
