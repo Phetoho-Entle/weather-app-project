@@ -19,3 +19,20 @@
     font-size: 50px;
     margin-bottom: 20px;
 }
+
+button {
+border: 1px solid #ccc;
+border-radius: 5px;
+background-color: #51a6df;
+cursor: pointer;
+border: none;
+margin: 0 5px;
+padding: 18px;
+font-size: 16px;
+}
+
+button:hover {
+    background-color: #509ed3;
+    transition: background-color 0.3s ease-in-out;
+    
+}
