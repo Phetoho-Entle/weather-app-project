@@ -1,0 +1,21 @@
+#search-engine {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#city-input {
+    margin: 0 5px;
+    width: 75%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f7feda;
+    border: none;
+    padding: 18px;
+    font-size: 16px;
+}
+
+#city {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
