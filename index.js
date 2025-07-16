@@ -16,3 +16,6 @@ function displayWeather (response) {
     cityElement.innerHTML = response.data.city;
     temperatureElement.innerHTML = temperature;
 }
+
+let searchForm = document.querySelector("#search-engine");
+searchForm.addEventListener("submit", search);
