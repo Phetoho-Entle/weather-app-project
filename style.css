@@ -37,37 +37,43 @@ button:hover {
     font-size: 50px;
     margin-bottom: 20px;
     margin-top: 40px;
-    font-weight: 800;
+    font-weight: 750;
 }
 
 #temp-numbers {
     font-weight: bold;
     color: red
 }
+
 #current-temperature {
     display: flex;
     justify-content: end;
-    font-size: 60px;
-    font-weight: 800;
-    margin-top: -120px;
+    font-size: 65px;
+    font-weight: 750;
+    margin-top: -100px;
     
     
 }
 
+#temperature-number {
+    font-weight: 700;
+    font-size: 70px;
+}
 
 #degrees-celsius {
     display: flex;
     justify-content: end;
-    font-size: 30px;
-    margin-top: 14px;
+    font-size: 24px;
+    margin-top: 12px;
+    
 }
 
 #weather-icon {
     display: flex;
     justify-content: end;
     font-size: 43px;
-    margin-top: 15px;
-    margin-right: 10px;
+    margin-right: 8px;
+    margin-top: 10px;
 }
 
 #weather-info {

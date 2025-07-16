@@ -9,11 +9,13 @@ function search(event) {
   axios.get(apiUrl).then(displayWeather);
 }
 
+
+
 function displayWeather(response) {
-  let temperatureElement = document.querySelector("#current-temperature");
+  let temperatureElement = document.querySelector("#temperature-number");
   let temperature = Math.round(response.data.temperature.current);
-  temperatureElement.innerHTML = `${temperature}°C`; 
-  
+  temperatureElement.innerHTML = temperature; 
+
 let cityElement = document.querySelector("#city");
   cityElement.innerHTML = response.data.city;
   
