@@ -19,6 +19,9 @@ function displayWeather(response) {
 let cityElement = document.querySelector("#city");
   cityElement.innerHTML = response.data.city;
   
+  let iconElement = document.querySelector("#weather-icon");
+  iconElement.setAttribute("src", response.data.condition.icon_url);
+  iconElement.setAttribute("alt",response.data.condition.description);
 }
 
 
