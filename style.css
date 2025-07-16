@@ -41,7 +41,7 @@ button:hover {
 }
 
 #temp-numbers {
-    font-weight: bold;
+    font-weight: 700;
     color: red
 }
 
@@ -65,7 +65,6 @@ button:hover {
     justify-content: end;
     font-size: 24px;
     margin-top: 12px;
-    
 }
 
 #weather-icon {

@@ -22,5 +22,17 @@ let cityElement = document.querySelector("#city");
 }
 
 
+function loadDefaultCity() {
+  let city = "London";
+  let apiKey = "739f904148cfa8boc86t8a8b426aac3f";
+  let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
+
+  axios.get(apiUrl).then(displayWeather);
+}
+
+loadDefaultCity(); 
+
+
+
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", search);
