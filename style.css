@@ -59,14 +59,14 @@ button:hover {
     display: flex;
     justify-content: end;
     font-size: 30px;
-    margin-top: 18px;
+    margin-top: 14px;
 }
 
 #weather-icon {
     display: flex;
     justify-content: end;
-    font-size: 52px;
-    margin-top: 20px;
+    font-size: 43px;
+    margin-top: 15px;
     margin-right: 10px;
 }
 
