@@ -8,3 +8,4 @@ function search (event) {
  
     axios.get(apiUrl).then(displayWeather);
 }
+
