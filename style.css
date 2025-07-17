@@ -40,9 +40,14 @@ button:hover {
     font-weight: 750;
 }
 
-#temp-numbers {
-    font-weight: 700;
-    color: red
+#wind-speed {
+ color: #0000FF;
+ font-weight: 800;
+}
+
+#humidity {
+    color: #0000FF;
+    font-weight: 800;
 }
 
 #current-temperature {
